@@ -31,28 +31,38 @@ Authentication: JWT and bcrypt
 ![Profile Page](https://github.com/user-attachments/assets/1e96bcf2-01af-4672-bc3f-501e2a5c4d46)
 ![Settings Page](https://github.com/user-attachments/assets/d2715032-94b0-46b6-9d79-5d3bb6df6b9f)
 **#Installation**
-1. Clone the repository
-   git clone  https://github.com/SaieshShetty/Chit-Chat__FullStack-ChatApp.git
-   cd Chit-Chat__FullStack-ChatApp
-2.Install dependencies
-   Backend dependencies:
-   npm install
-   Frontend dependencies:
-   cd Frontend
-   npm install
-   cd ..
-3. Set up environment variables
-   Create a .env file in the root directory and add the following variables:
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   SOCKET_PORT=your_socket_port
-4. Run the application
-   Start the backend server:
-   npm run server
-   Start the React frontend:
-   npm run client
-   Run both servers concurrently:
-   npm run dev
+```bash
+# Step 1: Clone the Repository
+git clone https://github.com/SaieshShetty/Chit-Chat__FullStack-ChatApp.git
+cd Chit-Chat__FullStack-ChatApp
+
+# Step 2: Install Dependencies
+
+# Backend Dependencies
+npm install
+
+# Frontend Dependencies
+cd Frontend
+npm install
+cd ..
+
+# Step 3: Set Up Environment Variables
+# Create a .env file in the root directory and add the following variables:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+SOCKET_PORT=your_socket_port
+
+# Step 4: Run the Application
+
+# Start the Backend Server
+npm run server
+
+# Start the React Frontend
+npm run client
+
+# Run Both Servers Concurrently
+npm run dev
+```
 **#Environment Variables**
 Ensure the following environment variables are configured in your .env file:
 
