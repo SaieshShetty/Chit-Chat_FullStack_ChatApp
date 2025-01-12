@@ -70,7 +70,8 @@ MONGO_URI: MongoDB connection string.
 JWT_SECRET: Secret key for signing JWT tokens.
 SOCKET_PORT: Port for the WebSocket server.   
 
-**#Folder Structure**
+
+```bash**#Folder Structure**
 project-root/
 ├── Frontend/           # React frontend
 │   ├── src/
@@ -84,7 +85,7 @@ project-root/
 ├── .env              # Environment variables
 ├── package.json
 └── README.md
-
+```
 #**Future Enhancements**
 Add multimedia sharing (images, videos, files).
 Implement push notifications for mobile devices.
