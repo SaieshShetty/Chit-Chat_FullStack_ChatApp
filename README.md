@@ -67,15 +67,16 @@ npm run client
 # Run Both Servers Concurrently
 npm run dev
 ```
-**#Environment Variables**
+# **Environment Variables**
 Ensure the following environment variables are configured in your .env file:
-
+```bash
 MONGO_URI: MongoDB connection string.
 JWT_SECRET: Secret key for signing JWT tokens.
 SOCKET_PORT: Port for the WebSocket server.   
+```
 
-
-```bash# **Folder Structure**
+# **Folder Structure**
+```bash
 project-root/
 ├── Frontend/           # React frontend
 │   ├── src/
