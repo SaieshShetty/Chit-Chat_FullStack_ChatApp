@@ -1,6 +1,7 @@
 # MERN Chat Application with Socket.IO
  This project is a real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Socket.IO for real-time communication. The application provides a seamless and dynamic messaging experience with features like one-on-one chat, group chat, and instant notifications.
-#**Table of Contents**
+# **Table of Contents**
+```bash
 1.Features
 2.Tech Stack
 3.Demo
@@ -11,7 +12,9 @@
 8.Future Enhancements
 9.Contributing
 10.License
+```
 **#Features**
+```bash
 1.Real-time messaging with Socket.IO.
 2.User authentication and authorization using JWT.
 3.Persistent chat history with MongoDB.
@@ -25,12 +28,13 @@ Backend: Node.js, Express.js
 Database: MongoDB with Mongoose
 Real-Time Communication: Socket.IO
 Authentication: JWT and bcrypt
-**#ScreenShots**
+```
+# **ScreenShots**
 ![Login Page](https://github.com/user-attachments/assets/d51b1cb3-a96d-4537-aa92-17d2720ff724)
 ![Home Page](https://github.com/user-attachments/assets/ef73ccf4-fce8-47c7-be34-1e65ece88e73)
 ![Profile Page](https://github.com/user-attachments/assets/1e96bcf2-01af-4672-bc3f-501e2a5c4d46)
 ![Settings Page](https://github.com/user-attachments/assets/d2715032-94b0-46b6-9d79-5d3bb6df6b9f)
-**#Installation**
+# **Installation**
 ```bash
 # Step 1: Clone the Repository
 git clone https://github.com/SaieshShetty/Chit-Chat__FullStack-ChatApp.git
@@ -71,7 +75,7 @@ JWT_SECRET: Secret key for signing JWT tokens.
 SOCKET_PORT: Port for the WebSocket server.   
 
 
-```bash**#Folder Structure**
+```bash# **Folder Structure**
 project-root/
 ├── Frontend/           # React frontend
 │   ├── src/
@@ -86,7 +90,7 @@ project-root/
 ├── package.json
 └── README.md
 ```
-#**Future Enhancements**
+# **Future Enhancements**
 Add multimedia sharing (images, videos, files).
 Implement push notifications for mobile devices.
 Add end-to-end encryption for enhanced security.
